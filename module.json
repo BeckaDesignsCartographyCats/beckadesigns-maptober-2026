@@ -1,0 +1,131 @@
+{
+  "id": "beckadesigns-maptober-2026",
+  "title": "BeckaDesigns Maptober 2026",
+  "version": "1.0.0",
+  "manifest": "https://github.com/BeckaDesignsCartographyCats/beckadesigns-maptober-2026/releases/latest/download/module.json",
+  "download": "https://github.com/BeckaDesignsCartographyCats/beckadesigns-maptober-2026/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>This module contains the 31 days of BeckaDesign's Maptober from 2026! All maps are prepped for use in Foundry Version 14. Check out the Patreon to read all about the thought put into each map and check out the Patreon tiers themselves unless you're already a member!</p>",
+  "authors": [
+    {
+      "name": "Becka_Tigeress (Cartographer)",
+      "url": "https://beccaschneller.wixsite.com/tigeressdesigns",
+      "discord": "beckatigeress4184",
+      "flags": {}
+    },
+    {
+      "name": "Garrus_2 (Foundry Wizard)",
+      "discord": "Garrus_2",
+      "flags": {}
+    }
+  ],
+  "url": "https://www.patreon.com/cw/BeckaDesignsCartographyCats",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Maptober Maps",
+      "path": "packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "creatures",
+      "label": "Monsters",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "City Map",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+   "packFolders": [
+    {
+      "name": "BeckaDesigns Maptober 2026",
+      "sorting": "m",
+      "color": "#69008d",
+      "packs": [],
+      "folders":[
+        {
+          "name": "Maptober Maps",
+          "sorting": "a",
+          "color": "#ff964f",
+          "packs":[
+            "maps"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Maptober Monsters",
+          "sorting": "a",
+          "color": "#ff964f",
+          "packs":[
+            "creatures"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Maptober City/Other maps",
+          "sorting": "a",
+          "color": "#ff964f",
+          "packs":[
+            "journal"
+          ],
+          "folders": []
+        }
+      ]
+    }
+   ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "gAudioBundle-1",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-3",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-4",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
